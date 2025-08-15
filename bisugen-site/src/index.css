@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Base theme tweaks for blue/white palette */
+:root {
+  --color-primary: #1e40af;
+  --color-primary-600: #2563eb;
+  --color-bg: #ffffff;
+  --color-text: #0f172a;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+.container-base {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
